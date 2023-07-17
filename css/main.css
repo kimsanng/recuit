@@ -99,12 +99,12 @@ body{
     
     margin-top: 100px;
     display: flex;
-    margin-left: 50px;
+   
 
     
 }
 .picture_right{
-  margin-right: 50px;
+  
 }
 
 .span_left1{
@@ -190,12 +190,13 @@ body{
 .item strong{
   display: block;
   margin-top: 10px;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 600;
 }
 .item p{
+    padding: 0 10px;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
@@ -509,7 +510,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 
     .faq {padding:100px 20px;}
     .picture_textleft span{font-size: 20px;}
-    .section2_inner .work_grid {grid-template-columns:repeat(2,1fr)}
+    .section2_inner .work_grid {grid-template-columns:repeat(1,1fr)}
     .work_section {padding:0 20px 100px;box-sizing: border-box;}
     .work_section img {width:70%;}
     .inquiry {padding:120px 20px;}
@@ -517,7 +518,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .work_section h2{font-size: 30px;}
     .work_section p{font-size: 15px;}
     .item strong{font-size: 18px;}
-    .item p{font-size: 13px;}
+    .item p{font-size: 13px; padding: 0 5px;}
     .faq h1{font-size: 30px;  }
     .inquiry_top h2{font-size: 30px;}
     .inquiry_top .inquiry_sub{text-align: center; font-size: 13px;}
@@ -538,7 +539,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_right p{font-size: 15px;}
     .scout_right span {margin-top:inherit;}
 
-    .scout_section1 {background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .scout_section1 {background-image: url('../img/section_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat;  width: 100%;}
     .scout_section2 {padding:0 20px;}
     .scout_section2 h1 {font-size:70px;}
     .section2_inner {width:100%;position: relative;}
@@ -551,7 +552,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 
     .faq {padding:100px 20px;}
 
-    .section2_inner .work_grid {grid-template-columns:repeat(2,1fr)}
+    .section2_inner .work_grid {grid-template-columns:repeat(1,1fr)}
     .work_section img {width:70%;}
     .inquiry {padding:120px 20px;}
     .agree_box {margin-bottom:30px;}
@@ -574,7 +575,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_right p > br {display:none;}
     .scout_right span {margin-top:inherit;}
 
-    .scout_section1 {background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .scout_section1 {background-image: url('../img/section_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat;  width: 100%;}
     .scout_section2 {padding:0 20px;}
     .scout_section2 h1 {font-size:70px;}
     .section2_inner {width:100%;position: relative;}
