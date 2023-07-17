@@ -6,6 +6,9 @@
 body{
   overflow-x: hidden;
 }
+.mo{
+  display: none;
+}
 .main_scout{
   margin-bottom:  300px;
   text-align: center;
@@ -475,6 +478,9 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 
 
 @media screen and (max-width:768px) {
+  body{
+    overflow-x: hidden;
+  }
     .main_scout {margin:100px 0 50px;padding:0 20px;}
 
     .main_scout p > br {display: none;}
@@ -490,7 +496,8 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 
     .scout_section1 .scout_sectxt h2{font-size: 18px; white-space: nowrap;}
 
-    .pc{background: none;}
+    .scout_section1.pc{display: none;}
+    .mo{display: block; width: 100%;}
     .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
     .scout_section2 {padding:0 20px;}
     .section2_inner h2{font-size: 60px;}
@@ -527,6 +534,9 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 }
 
 @media screen and (max-width:1023px) {
+  body{
+    overflow-x: hidden;
+  }
     .main_scout {margin:100px 0 50px;padding:0 20px;}
     .main_scout p > br {display: none;}
     .main_scout p{font-size: 15px;}
@@ -539,7 +549,8 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_right p > br {display:none;}
     .scout_right p{font-size: 15px;}
     .scout_right span {margin-top:inherit;}
-    .pc{background: none;}
+    .scout_section1.pc{display: none; }
+    .mo{display: block;}
     .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
     .scout_section2 {padding:0 20px;}
     .scout_section2 h1 {font-size:70px;}
@@ -565,7 +576,9 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 }
 
 @media screen and (min-width:1023px) and (max-width:1199px) {
-
+  body{
+    overflow-x: hidden;
+  }
   #section_first #background{width: 100%;}
     .main_scout {margin:100px 0 50px;padding:0 20px;}
     .main_scout p > br {display: block;}
@@ -577,7 +590,8 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_right h2 {font-size:30px;}
     .scout_right p > br {display:none;}
     .scout_right span {margin-top:inherit;}
-    .pc{background: none;}
+    .scout_section1.pc{display: none; }
+    .mo{display: block;}
     .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
     .scout_section2 {padding:0 20px;}
     .scout_section2 h1 {font-size:70px;}
