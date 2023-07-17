@@ -491,7 +491,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_section1 .scout_sectxt h2{font-size: 18px; white-space: nowrap;}
 
 
-    .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
     .scout_section2 {padding:0 20px;}
     .section2_inner h2{font-size: 60px;}
     .scout_section2 .section2_inner h1 {font-size:40px;}
@@ -540,7 +540,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_right p{font-size: 15px;}
     .scout_right span {margin-top:inherit;}
 
-    .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
     .scout_section2 {padding:0 20px;}
     .scout_section2 h1 {font-size:70px;}
     .section2_inner {width:100%;position: relative;}
@@ -577,7 +577,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
     .scout_right p > br {display:none;}
     .scout_right span {margin-top:inherit;}
 
-    .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
     .scout_section2 {padding:0 20px;}
     .scout_section2 h1 {font-size:70px;}
     .section2_inner {width:100%;position: relative;}
