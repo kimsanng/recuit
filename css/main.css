@@ -392,6 +392,7 @@ button.learn-more{
     margin:0 auto;
     width: 100%;
     max-width: 900px;
+    padding: 0 10px;
 }
 
 .inquiry .input_group{
@@ -566,7 +567,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 
     .section2_inner .work_grid {grid-template-columns:repeat(1,1fr)}
     .work_section img {width:70%;}
-    .inquiry {padding: 0 5px;}
+    .inquiry {padding: 0;}
     .agree_box {margin-bottom:30px;}
     #section_first #background{width: 100%;}
     .section2_inner .picture_textleft h2{text-align: left;}
