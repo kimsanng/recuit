@@ -369,7 +369,7 @@ button.learn-more{
 
   .agree_box {display: flex;align-items: center;}
 .agree_box > p {color:#fff;margin-left: 10px;}
-.agree_btn {padding:10px 30px;font-weight:700;display: block;margin: 0 auto;font-sizE:1.1rem;border-radius: 2px;border:1px solid #ddd}
+.agree_btn {padding:10px 30px;font-weight:700;display: block;margin: 50px auto 50px auto;font-sizE:1.1rem;border-radius: 2px;border:1px solid #ddd}
 
 .inquiry{
     box-sizing: border-box;
@@ -378,7 +378,7 @@ button.learn-more{
     background-position: center;
     background-size: cover;
     justify-content: center;
-    padding:120px 0;
+    padding:120px 0 0 0;
 }
 
 .inq_first {color:#fff;font-size:1.02rem;margin-bottom: 30px;font-weight: 700;}
@@ -458,7 +458,7 @@ textarea:focus~label{
 .privacy-text-box span {display:block;margin: 10px 0 30px;}
 
 .input_group.a textarea {border:0}
-
+footer{width: 100%;}
 footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bottom: 40px;}
 
 
@@ -566,7 +566,7 @@ footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bo
 
     .section2_inner .work_grid {grid-template-columns:repeat(1,1fr)}
     .work_section img {width:70%;}
-    .inquiry {padding:120px 20px;}
+    .inquiry {padding: 0 5px;}
     .agree_box {margin-bottom:30px;}
     #section_first #background{width: 100%;}
     .section2_inner .picture_textleft h2{text-align: left;}
