@@ -495,6 +495,7 @@ body{
   .scout_right p > br {display:none;}
   .scout_right span {margin-top:inherit;}
 
+  .scout_section1 {background-image: url('../img/mobile_bg.png');}
   .scout_section1 .scout_sectxt h2{font-size: 18px; white-space: nowrap;}
 
   .scout_section1.pc{display: none;}
@@ -552,10 +553,10 @@ body{
   .scout_right span {margin-top:inherit;}
   .scout_section1.pc{display: none; }
   .mo{display: block;}
-  .scout_section1 {background-image: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;}
-  .scout_section2 {padding:0 20px;}
+  .scout_section1 {background: url('../img/mobile_bg.png'); background-size: cover;background-position: center;background-repeat: no-repeat; width: 100%;position: relative;}
+  .scout_section2 {padding:0 20px;overflow: hidden;}
   .scout_section2 h1 {font-size:70px;}
-  .section2_inner {width:100%;position: relative;}
+  .section2_inner {width:100%;position: relative;overflow: hidden;}
   
   .section_picture1 {margin-left: 50px;}
   .picture_left {display: inherit;} 
